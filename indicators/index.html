@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>jQuery和CSS3炫酷3D折纸面板展开页面特效|DEMO_jQuery之家-自由分享jQuery、html5、css3的插件库</title>
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" type="text/css" href="css/default.css">
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+</head>
+<body>
+
+	<main class="cd-main">
+		<ul class="cd-gallery">
+			<li class="cd-item">
+				<a href="item-1.html">
+					<div>
+						<h2><img src="canada.png" width="250px" > <br/>Canada</h2>
+						<p>Environmental Indicators for Canada.</p>
+						<b>View More</b>
+					</div>
+				</a>
+			</li>
+
+			<li class="cd-item">
+				<a href="item-2.html">
+					<div>
+						<h2><img src="usa.png" width="350px" > <br/>USA</h2>
+						<p>Environmental Indicators for USA.</p>
+						<b>View More</b>
+					</div>
+				</a>
+			</li>
+
+			<li class="cd-item" style="display: none;">
+				<a class="dark-text" href="item-3.html">
+					<div>
+						<h2>Title 3</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur.</p>
+						<b>View More</b>
+					</div>
+				</a>
+			</li>
+
+			<li class="cd-item" style="display: none;">
+				<a href="item-4.html">
+					<div>
+						<h2>Title 4</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur.</p>
+						<b>View More</b>
+					</div>
+				</a>
+			</li>
+		</ul> <!-- .cd-gallery -->
+		
+	</main> <!-- .cd-main -->
+
+	<div class="cd-folding-panel">
+		
+		<div class="fold-left"></div> <!-- this is the left fold -->
+		
+		<div class="fold-right"></div> <!-- this is the right fold -->
+		
+		<div class="cd-fold-content">
+			<!-- content will be loaded using javascript -->
+		</div>
+
+		<a class="cd-close" href="#0"></a>
+	</div> <!-- .cd-folding-panel -->
+	
+	<script src="js/jquery-2.1.1.js"></script>
+	<script src="js/main.js"></script> <!-- Resource jQuery -->
+	
+</body>
+</html>
